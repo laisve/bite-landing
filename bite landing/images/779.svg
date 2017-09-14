@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="67px" height="66px" viewBox="0 0 67 66" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+    <title>Badge</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bite---B8---Landing---Register" transform="translate(-1055.000000, -1163.000000)">
+            <g id=":-Register-(Light-Box)" transform="translate(-1.000000, 894.000000)">
+                <g id="Selected-Offer" transform="translate(800.000000, 269.000000)">
+                    <g id="Badge" transform="translate(256.000000, 0.000000)">
+                        <rect id="Container" fill="#EE404A" x="0.465346535" y="0" width="65.8983931" height="65.8983931" rx="32.9491966"></rect>
+                        <path d="M6.0632054,37.948324 C8.28779797,51.0300743 19.6769779,60.990099 33.3924463,60.990099 L33.7326733,60.990099 C49.0435376,60.990099 61.4554455,48.5781911 61.4554455,33.2673267 L61.4554455,33.2673267 C61.4554455,17.9564624 49.0435376,5.54455446 33.7326733,5.54455446 L33.7326733,5.54455446 L33.3924463,5.54455446 L33.3924463,5.54455446 C19.5589747,5.54455446 8.0919929,15.6767017 6.00782601,28.9246711 L7.8786008,28.9246711 C9.94423723,16.6947917 20.5861283,7.37956818 33.4037064,7.37956818 L33.7214132,7.37956818 L33.7214132,7.37956818 C48.0188274,7.37956818 59.6091717,18.9699125 59.6091717,33.2673267 L59.6091717,33.2673267 L59.6091717,33.2673267 C59.6091717,47.564741 48.0188274,59.1550853 33.7214132,59.1550853 L33.4037064,59.1550853 L33.4037064,59.1550853 C20.7045911,59.1550853 10.1411324,50.0112527 7.93806665,37.948324 L6.0632054,37.948324 Z" id="Stroke" fill="#FFFFFF"></path>
+                        <polygon id="-" fill="#FFFFFF" points="10.5383502 34.3094103 3.94300353 34.3094103 3.94300353 32.2000284 10.5383502 32.2000284"></polygon>
+                        <text id="Eur" font-family="Ubuntu-Bold, Ubuntu" font-size="13" font-weight="bold" letter-spacing="-1.08333337" fill="#FFFFFF">
+                            <tspan x="24.8703274" y="49.2716584">Eur</tspan>
+                        </text>
+                        <text id="799" font-family="Ubuntu-Bold, Ubuntu" font-size="22" font-weight="bold" letter-spacing="-0.879999995" fill="#FFFFFF">
+                            <tspan x="15.3997299" y="36.4158416">799</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

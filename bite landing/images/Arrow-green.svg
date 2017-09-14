@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46 (44423) - http://www.bohemiancoding.com/sketch -->
+    <title>Arrow</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bite---B8---Landing---Index" transform="translate(-719.000000, -1729.000000)" fill="#008738">
+            <g id=":-Offers" transform="translate(0.000000, 894.000000)">
+                <g id="Lenovo-Offer">
+                    <g id="CTA:-Pasiulymo-Salygos" transform="translate(603.000000, 832.000000)">
+                        <path d="M126.171,10.608 C126.384,10.823 126.384,11.169 126.171,11.383 L123.644,13.916 L123.643,13.916 C123.43,14.129 123.084,14.129 122.871,13.916 L122.613,13.658 C122.4,13.444 122.4,13.099 122.613,12.885 L124.494,11 L122.613,9.115 C122.4,8.901 122.4,8.556 122.613,8.342 L122.872,8.084 C123.085,7.87 123.431,7.871 123.644,8.084 L126.171,10.608 Z M132,11 C132,15.418 128.418,19 123.999,19 C119.581,19 116,15.418 116,11 C116,6.581 119.581,3 123.999,3 C128.418,3 132,6.581 132,11 L132,11 Z M130.222,11 C130.222,7.562 127.436,4.777 123.999,4.777 C120.563,4.777 117.777,7.562 117.777,11 C117.777,14.437 120.563,17.222 123.999,17.222 C127.436,17.222 130.222,14.437 130.222,11 L130.222,11 Z" id="Arrow"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

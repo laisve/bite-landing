@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="134px" height="134px" viewBox="0 0 134 134" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Offer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-25.2%" y="-25.2%" width="150.5%" height="150.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bite---B8---Landing---Index" transform="translate(-398.000000, -1000.000000)">
+            <g id=":-Offers" transform="translate(0.000000, 894.000000)">
+                <g id="Lenovo-Offer">
+                    <g id="Offer" transform="translate(418.000000, 115.000000)">
+                        <rect id="Shadow" fill="#910002" opacity="0.296308877" filter="url(#filter-1)" x="0" y="9.83606557" width="95.0819672" height="95.0819672" rx="47.5409836"></rect>
+                        <rect id="Container" fill="#EE404A" x="5" y="0" width="95.0819672" height="95.0819672" rx="47.5409836"></rect>
+                        <path d="M13.0769106,54.7540103 C16.2866799,73.6291073 32.7196396,88 52.5091011,88 L53,88 C75.09139,88 93,70.09139 93,48 L93,48 C93,25.90861 75.09139,8 53,8 L53,8 L52.5091011,8 L52.5091011,8 C32.5493778,8 16.0041612,22.6192411 12.9970061,41.7341684 L15.6962669,41.7341684 C18.6766851,24.0881995 34.0314137,10.6476627 52.5253478,10.6476627 L52.9837533,10.6476627 L52.9837533,10.6476627 C73.6128796,10.6476627 90.3360907,27.3708737 90.3360907,48 C90.3360907,68.6291263 73.6128796,85.3523373 52.9837533,85.3523373 L52.5253478,85.3523373 L52.5253478,85.3523373 C34.2023387,85.3523373 18.9607768,72.1590932 15.7820676,54.7540103 L13.0769106,54.7540103 Z" id="Stroke" fill="#FFFFFF"></path>
+                        <polygon id="-" fill="#FFFFFF" points="19.5339054 49.5035777 10.0177622 49.5035777 10.0177622 46.460041 19.5339054 46.460041"></polygon>
+                        <text id="Eur" font-family="Ubuntu-Bold, Ubuntu" font-size="16" font-weight="bold" letter-spacing="-1.33333337" fill="#FFFFFF">
+                            <tspan x="40.8349081" y="68">Eur</tspan>
+                        </text>
+                        <text id="799" font-family="Ubuntu-Bold, Ubuntu" font-size="30" font-weight="bold" letter-spacing="-1.20000005" fill="#FFFFFF">
+                            <tspan x="28.0485247" y="52">79</tspan>
+                            <tspan x="59.7285246" y="52" letter-spacing="-1.44000006">9</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

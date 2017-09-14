@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="103px" viewBox="0 0 106 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.1 (43504) - http://www.bohemiancoding.com/sketch -->
+    <title>Offer</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-36.4%" y="-36.4%" width="172.8%" height="172.8%" filterUnits="objectBoundingBox" id="filter-1">
+            <feGaussianBlur stdDeviation="8" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bite---B8---Landing---Index" transform="translate(-1240.000000, -994.000000)">
+            <g id=":-Offers" transform="translate(0.000000, 894.000000)">
+                <g id="Asus-Offer" transform="translate(961.000000, 0.000000)">
+                    <g id="Offer" transform="translate(299.000000, 112.000000)">
+                        <rect id="Shadow" fill="#910002" opacity="0.296308877" filter="url(#filter-1)" x="0" y="6.81707515" width="65.8983931" height="65.8983931" rx="32.9491966"></rect>
+                        <rect id="Container" fill="#EE404A" x="3.46534653" y="0" width="65.8983931" height="65.8983931" rx="32.9491966"></rect>
+                        <path d="M9.0632054,37.948324 C11.287798,51.0300743 22.6769779,60.990099 36.3924463,60.990099 L36.7326733,60.990099 C52.0435376,60.990099 64.4554455,48.5781911 64.4554455,33.2673267 L64.4554455,33.2673267 C64.4554455,17.9564624 52.0435376,5.54455446 36.7326733,5.54455446 L36.7326733,5.54455446 L36.3924463,5.54455446 L36.3924463,5.54455446 C22.5589747,5.54455446 11.0919929,15.6767017 9.00782601,28.9246711 L10.8786008,28.9246711 C12.9442372,16.6947917 23.5861283,7.37956818 36.4037064,7.37956818 L36.7214132,7.37956818 L36.7214132,7.37956818 C51.0188274,7.37956818 62.6091717,18.9699125 62.6091717,33.2673267 L62.6091717,33.2673267 L62.6091717,33.2673267 C62.6091717,47.564741 51.0188274,59.1550853 36.7214132,59.1550853 L36.4037064,59.1550853 L36.4037064,59.1550853 C23.7045911,59.1550853 13.1411324,50.0112527 10.9380666,37.948324 L9.0632054,37.948324 Z" id="Stroke" fill="#FFFFFF"></path>
+                        <polygon id="-" fill="#FFFFFF" points="13.5383502 34.3094103 6.94300353 34.3094103 6.94300353 32.2000284 13.5383502 32.2000284"></polygon>
+                        <text id="Eur" font-family="Ubuntu-Bold, Ubuntu" font-size="13" font-weight="bold" letter-spacing="-1.08333337" fill="#FFFFFF">
+                            <tspan x="27.8703274" y="49.2716584">Eur</tspan>
+                        </text>
+                        <text id="779" font-family="Ubuntu-Bold, Ubuntu" font-size="22" font-weight="bold" letter-spacing="-0.879999995" fill="#FFFFFF">
+                            <tspan x="18.3997299" y="36.4158416">779</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

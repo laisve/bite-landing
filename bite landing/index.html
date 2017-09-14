@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bitės akcijos</title>
+	<meta name="viewport" content="width-device-width, initial-scale=1">
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.1.0/jquery.simpleWeather.min.js"></script>
+	<script src='jquery.transit.js'></script>
+	<script type="text/javascript" src="script.js"></script>
+	<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+	<div id="landing">
+		<div id="intro">
+			<div id="video">
+				<video muted="muted" loop="loop" autoplay="autoplay">
+					<source src="video-vanduo.mp4" type="video/mp4">
+				</video>
+				<div id="title">
+					<h1>Sutaupykite 779 Eur saulėtoms atostogoms</h1>
+				</div>
+				<div id="weather">
+					<div class="town" id="lt-kurortas">
+						<div class="town-temp">
+							<div class="town-name" id="lt-town"></div>
+							<div class="temp" id="lt"></div>
+						</div>
+						<div class="icon" id="lt-icon"></div>
+					</div>
+					<div class="town" id="kurortas">
+						<div class="town-temp">
+							<div class="town-name" id="south-town"></div>
+							<div class="temp" id="eu"></div>
+						</div>
+						<div class="icon" id="south-icon"></div>
+					</div>
+				</div>
+				<a href="#" id="mouse"><img src="images/Scroll.svg"></a>
+			</div>
+		</div>
+		<div class="grid-list">
+			<div class="popup" id="lenovo-salygos" style="display: none;">
+				<div class="popup-background"></div>
+				<div class="popup-inner">
+					<div class="close-button">
+						<img src="images/close-button.svg">
+					</div>
+					<h2>Pasiūlymo sąlygos</h2>
+					<p>Pasiūlymas galioja privatiems klientams, įsigyjantiems įrangą išsimokėtinai per 36 mėn. ir pasirašiusiems 24 mėn. BITĖS paslaugų sutartį su planu Neriboti GB Namams, kurio mėnesio mokestis 29 Eur. Įrenginio kaina 799 Eur.</p>
+					<p>Pasiūlymas suteikia 799 Eur nuolaidą, kurią sudaro 100% (205 Eur) nuolaida pradinei įmokai už įrangą, kuri suteikiama iš karto, ir 594 Eur nuolaida paslaugos mėnesio mokesčiui, išdėstyta lygiomis dalimis per 36 mėn.</p>
+					<p>Nutrūkus paslaugų sutarčiai, nutrūksta ir įrangos išsimokėjimo sutartis, tokiu atveju prašysime Jūsų sumokėti visas likusias įmokas už įrangą iš karto ir galutinai už ją atsiskaityti.</p>
+					<p>Neribotoms paslaugoms taikomos sąžiningo naudojimosi taisyklės. Pasiūlymo laikas ir įrangos skaičius ribotas. Daugiau apie pasiūlymą www.bite.lt</p>
+				</div>
+			</div>
+			<div class="popup" id="lenovo-registruotis" style="display: none;">
+				<div class="popup-background"></div>
+				<div class="popup-inner">
+					<div class="close-button">
+						<img src="images/close-button.svg">
+					</div>
+					<h2>Registruotis</h2>
+					<div class="register-title-wrap">
+						<div class="register-title">
+							<h3>Lenovo Yoga 500</h3>
+							+ Modemas + Neriboti GB Namams
+						</div>
+						<div class="price">
+							<img src="images/779.svg">
+						</div>
+					</div>
+					<form>
+						<div class="form-group">
+							<input type="text" class="form-control" id="vardas" placeholder="Vardas">
+						</div>
+						<div class="form-group">
+							<input type="text" class="form-control" id="pavarde" placeholder="Pavardė">
+						</div>
+						<div class="form-group">
+							<select class="form-control" placeholder="Miestas">
+								<option>Vilnius</option>
+								<option>Kaunas</option>
+								<option>Klaipėda</option>
+								<option>Šiauliai</option>
+							</select>
+						</div>
+						<div class="form-group">
+							<input type="phone" class="form-control" id="phone" placeholder="Tel. nr.">
+						</div>
+						<div class="form-group">
+							<div class="text-center">
+								<button class="button red">
+									Registruotis
+									<img src="images/Arrow.svg">
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<div class="container" id="main">
+				<div class="row">
+					<div class="col-md-6 col-xs-12">
+						<div class="product product-1">
+							<div class="image" id="lenovo">
+								<img src="images/lenovo-yoga.png"/>
+								<div class="discount">
+									<img src="images/Offer.svg">
+								</div>
+								<div id="huawei">
+									<img src="images/modem.png">
+									<img src="images/huawei-logo.png">
+								</div>
+							</div>
+							<div class="text">
+								<h2>Lenovo Yoga 510 - 14ISK</h2>
+								<div class="spec">
+									<a href="#">Modemas</a> ir <a href="#">Neriboti GB Namams</a>
+								</div>
+								<div class="verte">
+									Įrangos vertė - 799 Eur
+								</div>
+								<div class="buttons">
+									<button class="button red" id="lenovo-register">
+										Registruotis
+										<img src="images/Arrow.svg">
+									</button>
+									<button class="button green" id="lenovo-savybes">
+										Savybės 
+										<img src="images/Arrow.svg">
+									</button>
+								</div>
+								<div class="salygos" id="salygos-1-lenovo">
+									Pasiūlymo sąlygos<img src="images/Arrow-green.svg">
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6 col-xs-12">
+						<div class="product product-2">
+							<div class="col-md-6 col-xs-12 image">
+								<img src="images/img-2.png">
+								<div class="discount">
+									<img src="images/Offer-1.svg">
+								</div>
+							</div>
+							<div class="text">
+								<h2>Asus VivaBook</h2>
+								<div class="spec">
+									<a href="#">Modemas</a> ir <a href="#">Neriboti GB Namams</a>
+								</div>
+								<div class="verte">
+									Įrangos vertė - 779 Eur
+								</div>
+								<div class="buttons-1">
+									<button class="button red">
+										Registruotis
+										<img src="images/Arrow.svg">
+									</button>
+									<button class="button green">
+										Savybės 
+										<img src="images/Arrow.svg">
+									</button>
+								</div>
+								<div class="salygos">
+									<a href="#product-1">Pasiūlymo sąlygos<img src="images/Arrow-green.svg"></a>
+								</div>
+							</div>
+						</div>
+						<div class="product product-2">
+							<div class="image image-3">
+								<img src="images/img-3.png">
+								<div class="discount">
+									<img src="images/Offer-1.svg">
+								</div>
+							</div>
+							<div class="text">
+								<h2>Dell Vostro</h2>
+								<div class="spec">
+									<a href="#">Modemas</a> ir <a href="#">Neriboti GB Namams</a>
+								</div>
+								<div class="verte">
+									Įrangos vertė - 779 Eur
+								</div>
+								<div class="buttons-1">
+									<button class="button red">
+										Registruotis
+										<img src="images/Arrow.svg">
+									</button>
+									<button class="button green">
+										Savybės 
+										<img src="images/Arrow.svg">
+									</button>
+								</div>
+								<div class="salygos">
+									<a href="#product-1">Pasiūlymo sąlygos<img src="images/Arrow-green.svg"></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="slider" style="display: none;">
+			<div class="slider-header">
+				<div class="container">
+					<div class="slider-header-left">
+						<div class="arrow-back">
+							<img src="images/Back.svg">
+						</div>
+						<div class="slider-header-text">
+							<h2>Lenovo Yoga 510-14</h2>
+							<p><a href="#">Modemas</a> ir <a href="#">Neriboti GB Namams</a></p>
+						</div>
+						<div class="badge">
+							<img src="images/Badge.svg">
+						</div>
+					</div>
+					<div class="slider-header-right">
+						<div class="salygos">
+							<a href="#product-1">Pasiūlymo sąlygos<img src="images/Arrow-green.svg"></a>
+						</div>
+						<button class="button red">
+							Registruotis
+							<img src="images/Arrow.svg">
+						</button>
+					</div>
+				</div>
+			</div>
+			<div class="slides">
+				<div class="slider-main grey" id="slide-1">
+					<div class="slider-main-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6"></div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 slider-text">
+									<h2>Erdvus ekranas, patogus naudotis</h2>
+									<p>Erdvus lietimams jautrus 14 colių įstrižainės ekranas leis mėgautis ryškiais vaizdais ir funkcionalesniu valdymu nei įprasti nešiojamieji kompiuteriai. "Lenovo Yoga 51014ISK" išsiskiria savo galimybėmis, bet yra lengvas ir plonas - vos 21 mm storio. Todėl jis puikiai tinka ne tik naudotis kasdien, bet ir kelionėse.</p>
+									<div class="slide-arrows">
+										<i class="slide-left"><span class="glyphicon glyphicon-menu-left"></span></i>
+										<i class="slide-right"><span class="glyphicon glyphicon-menu-right"></span></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-main black" id="slide-2">
+					<div class="slider-main-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 slider-text">
+									<h2>Besisukinėjantis 360 laipsnių lietimui jautrus ekranas</h2>
+									<p>Galintis apsisukti lietimams jautrus ekranas leidžia vienam įrenginiui atlikti tris funkcijas - nešiojamojo kompiuterio, stendo bei planšetinio kompiuterio. Norint šį nešiojamąjį konpiuterį paversti planšetiniu, tereikės apsukti ekraną 360 laipsnių: sistema, apsaugodama nuo atsitiktinių paspaudimų, užrakins klaviatūrą, o Jūs galėsite patogiai naudotis liečiamu ekranu.</p>
+									<div class="slide-arrows">
+										<i class="slide-left"><span class="glyphicon glyphicon-menu-left"></span></i>
+										<i class="slide-right"><span class="glyphicon glyphicon-menu-right"></span></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-main grey" id="slide-3">
+					<div class="slider-main-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"></div>
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 slider-text">
+									<h2>Galingi stereogarsiakalbiai "Harman &reg;"</h2>
+									<p>"Lenovo Yoga 510-14ISK" gali pasigirti ne tik ryškiu lietimams jautriu ekranu, bet ir ypač aukštos kokybės sodriu garsu, kurį užtikrina galingi stereogarsiakalbiai "Harman". Žiūrėdami vaizdo įrašus ir filmus jausitės tarsi atsidūrę veiksmo centre.</p>
+									<div class="slide-arrows">
+										<i class="slide-left"><span class="glyphicon glyphicon-menu-left"></span></i>
+										<i class="slide-right"><span class="glyphicon glyphicon-menu-right"></span></i>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="slider-main black" id="slide-4">
+					<div class="slider-main-top">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 slider-text">
+									<h2>Pažangus procesorius "Intel&reg; Core&trade; i3"</h2>
+									<p>Nepriekaištingą įrenginio darbą užtikrina naujos kartos procesorius "Intel&reg; Core&trade; i3". Jis ne tik leidžia sklandžiai dirbti, bet puikiai tinka ir pramogoms. Be to, efektyviai paskirstydamas baterijos resurus kelionėse, leidžia Jums daug rečiau prisiminti baterijos krovimus. Tai aukštos klasės procesorius, kuris leidžia daugiau.</p>
+									<div class="slide-arrows">
+										<i class="slide-left"><span class="glyphicon glyphicon-menu-left"></span></i>
+										<i class="slide-right"><span class="glyphicon glyphicon-menu-right"></span></i>
+									</div>
+								</div>
+							</div>
+							<div class="slide-arrows">
+								<i class="slide-left"><span class="glyphicon glyphicon-menu-left"></span></i>
+								<i class="slide-right"><span class="glyphicon glyphicon-menu-right"></span></i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<ul class="dots" role="tablist">
+				<li class="dot dot-active" id="dot-1">
+					<button role="button">
+						<div class="left-line"></div>
+						<div class="central-dot"></div>
+						<div class="right-line"></div>
+					</button>
+					<span class="slide-title">
+						Erdvus ekranas,<br>patogus naudotis
+					</span>
+				</li>
+				<li class="dot" id="dot-2">
+					<button role="button">
+						<div class="left-line"></div>
+						<div class="central-dot"></div>
+						<div class="right-line"></div>
+					</button>
+					<span class="slide-title">
+						Besisukinėjantis 360 laipsnių<br>lietimui jautrus ekranas
+					</span>
+				</li>
+				<li class="dot" id="dot-3">
+					<button role="button">
+						<div class="left-line"></div>
+						<div class="central-dot"></div>
+						<div class="right-line"></div>
+					</button>
+					<span class="slide-title">
+						Galingi stereogarsiakalbiai<br>"Harman &reg;"
+					</span>
+				</li>
+				<li class="dot" id="dot-4">
+					<button role="button">
+						<div class="left-line"></div>
+						<div class="central-dot"></div>
+						<div class="right-line"></div>
+					</button>
+					<span class="slide-title">
+						Pažangus procesorius<br>"Intel&reg; Core&trade; i3"
+					</span>
+				</li>
+			</ul>
+		</div>
+		<div class="photos">
+			<div class="container" id="photo-container">
+				<h3>Prisijunkite prie keliaujančių</h3>
+				<div class="row">
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-1.png">
+					</div>
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-2.png">
+					</div>
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-3.png">
+					</div>
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-4.png">
+					</div>
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-5.png">
+					</div>
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-6.png">
+					</div>
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-7.png">
+					</div>
+					<div class="col-sm-3 col-xs-6 photo">
+						<img src="photos/photo-8.png">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="nav">
+			<ul>
+				<li><a href="#intro" class="simple"></a></li>
+				<li><a href="#main" class="simple"></a></li>
+				<li><a href="#photo-container" class="simple"></a></li>
+			</ul>
+		</div>
+		<footer>
+			<div class="green-row">
+				<div class="container" id="green-row-container">
+					<div class="row">
+						<div class="col-md-4 col-xs-12">
+							<h3>Užsisakykite naujienlaiškį</h3>
+							<div class="green-row-text">
+								Pirmieji sužinokite apie specialius pasiūlymus ir naujienas iš BITĖS
+							</div>
+						</div>
+						<div class="col-md-5 col-xs-12 form-column">
+							<form>
+								<div class="form-group">
+									<input type="email" class="form-control" id="email" placeholder="Jūsų el. pašto adresas">
+									<button id="subscribe">Užsakyti</button>
+								</div>
+							</form>
+						</div>
+						<div class="col-md-3 col-xs-12">
+							<p>Bendraukime</p>
+							<div class="social">
+								<a href="http://www.facebook.com/bitelietuva" class="fa fa-facebook"></a>
+								<a href="http://www.twitter.com/bitelietuva" class="fa fa-twitter"></a>
+								<a href="http://www.youtube.com/user/bitelietuva" class="fa fa-youtube-play"></a>
+								<a href="http://www.linkedin.com/company/162720?trk=prof-exp-company-name" class="fa fa-linkedin"></a>
+								<a href="http://instagram.com/bite_lietuva" class="fa fa-instagram"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="lower-footer">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-2 col-xs-6">
+							<div class="category">
+								Privatiems
+							</div>
+							<ul class="list">
+								<li><a href="#">Telefonai</a></li>
+								<li><a href="#">Planšetiniai</a></li>
+								<li><a href="#">Planai</a></li>
+								<li><a href="#">Internetas</a></li>
+								<li><a href="#">Paslaugos</a></li>
+							</ul>
+						</div>
+						<div class="col-md-2 col-xs-6">
+							<div class="category">
+								Verslui
+							</div>
+							<ul class="list">
+								<li><a href="#">Telefonai</a></li>
+								<li><a href="#">Planšetiniai</a></li>
+								<li><a href="#">Planai</a></li>
+								<li><a href="#">Internetas</a></li>
+								<li><a href="#">Paslaugos</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<div class="category">
+								Trumpieji numeriai
+							</div>
+							<ul class="list">
+								<li><a href="#"><span style="font-weight: bold;">1501</span> Klientų aptarnavimo tel.</a></li>
+								<li><a href="#"><span style="font-weight: bold;">1500</span> Sužinokite, kiek mokėti</a></li>
+								<li><a href="#"><span style="font-weight: bold;">1506</span> Min., SMS, MB likutis</a></li>
+								<li><a href="#"><span style="font-weight: bold;">117</span> Informacija apie paslaugas</a></li>
+								<li><a href="#"><span style="font-weight: bold;">119</span> Jūsų pasiūlymams</a></li>
+							</ul>
+						</div>
+						<div class="col-md-3 col-xs-6">
+							<div class="category">
+								Pagalba
+							</div>
+							<ul class="list">
+								<li><a href="#">Kaip tapti klientu?</a></li>
+								<li><a href="#">Paslaugų teikimo sąlygos</a></li>
+								<li><a href="#">Sąskaitos</a></li>
+								<li><a href="#">Paslaugos</a></li>
+								<li><a href="#">Internetas</a></li>
+								<li><a href="#">Savitarna</a></li>
+							</ul>
+							<div class="form-group">
+								<div class="icon-addon addon-md">
+									<input type="text" class="form-control" id="search" placeholder="Paieškos laukas">
+									<label for="search" class="glyphicon glyphicon-search"></label>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-2 col-xs-12">
+							<div class="category">
+								BITĖ Lietuva
+							</div>
+							<ul class="list">
+								<li><a href="#">Kontaktai</a></li>
+								<li><a href="#">Apie mus</a></li>
+								<li><a href="#">BITĖS ryšys</a></li>
+								<li><a href="#">Žiniasklaidai</a></li>
+								<li><a href="#">Karjera</a></li>
+								<li><a href="#">Salonai</a></li>
+								<li><a href="#">Srauto valdymas</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+</body>
+</html>
